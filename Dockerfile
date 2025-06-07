@@ -8,15 +8,16 @@ RUN dnf copr enable -y atim/starship && \
         fzf \
         git-absorb \
         git-delta \
+        helix \
         hub \
         make \
-        helix \
         nerd-fonts \
         python3-pip \
         ripgrep \
         starship \
         syncthing \
         tilix \
+        yq \
         zoxide \
         zsh && \
     dnf clean all && \
